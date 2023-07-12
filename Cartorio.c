@@ -169,6 +169,9 @@ int main()
             menu = deletar(voltar_menu, menu); // Utilizando a Função Deletar
             break;
 
+            case 4:
+            menu = 0;
+            break;
         
             default:
             printf("OPÇÃO INVÁLIDA, POR FAVOR TENTE NOVAMENTE \n");
